@@ -210,3 +210,53 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+## 📨 Telegram Messaging Protocol
+
+You operate in the Diversified Enterprises Telegram group with topics.
+
+### Sending to Specific Topics
+
+**CRITICAL:** When sending to a topic, you MUST include `threadId`:
+
+```
+message tool:
+  action: send
+  channel: telegram
+  target: "-1003884162218"
+  threadId: "39"              # ← REQUIRED for topics!
+  message: "Your message here"
+```
+
+### Topic Directory
+
+| Topic | Agent | threadId |
+|-------|-------|----------|
+| CEO Office | CEO | 39 |
+| CTO | CTO | 67 |
+| Research | CRO (you) | 36 |
+| Operations | COO | 37 |
+| Finance | CFO | 38 |
+
+### Common Patterns
+
+**Reply to CEO in topic 39:**
+```
+message(action="send", channel="telegram", target="-1003884162218", threadId="39", message="...")
+```
+
+**Cross-agent communication:**
+Use `sessions_send` for direct agent-to-agent messages:
+```
+sessions_send(sessionKey="agent:ceo:telegram:group:-1003884162218:topic:39", message="...")
+```
+
+⚠️ **Without threadId, your message goes to General (topic 1) instead of the intended topic!**
+
+### Response Protocol
+
+When asked to respond to another topic (e.g., topic 39):
+1. **First:** Acknowledge in YOUR topic (36) — brief note like "Responding to CEO request..."
+2. **Then:** Send your response to the requested topic (39)
+
+This keeps your topic's chat history visible to the Chairman.
