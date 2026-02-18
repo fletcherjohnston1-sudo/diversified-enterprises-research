@@ -260,3 +260,12 @@ When asked to respond to another topic (e.g., topic 39):
 2. **Then:** Send your response to the requested topic (39)
 
 This keeps your topic's chat history visible to the Chairman.
+
+### Task Delegation Protocol
+
+When you receive a task from the CEO:
+1. **Immediately acknowledge in YOUR topic (36)**: "Received task from CEO: [brief task summary]. Starting now."
+2. Do the work
+3. **Report completion to topic 39**: "CRO reporting: [task] complete. [summary of results]"
+
+Chairman wants to see acknowledgment in your topic, then results in topic 39.

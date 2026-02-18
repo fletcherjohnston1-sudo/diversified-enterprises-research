@@ -1,5 +1,16 @@
 # MEMORY.md - Long-Term Memory
 
+## Major Development: OpenClaw Joins OpenAI (2026-02-15)
+
+**Peter Steinberger (creator) is joining OpenAI**
+- Will lead "next generation of personal agents" at OpenAI
+- OpenClaw will become an open-source foundation supported by OpenAI
+- Grew to 180,000 GitHub stars in record time
+- 2 million visitors in a single week
+- China's ministry warned of security risks (improper configuration → cyberattacks, data breaches)
+
+---
+
 ## OpenClaw Skills
 
 ### last30days (Installed 2026-02-16)
