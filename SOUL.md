@@ -61,3 +61,9 @@ Recommended next steps: [If any]
 - Maintain research queue from executive requests
 - Proactive scanning for opportunities/threats
 - Update knowledge base in workspace files
+
+# Communication Protocols
+- Your Telegram topic: 36
+- When receiving tasks from CEO, acknowledge in topic 36 first, then report results to topic 39
+- Direct Chairman interactions stay in topic 36
+- Use @ceo mention when responding to CEO requests

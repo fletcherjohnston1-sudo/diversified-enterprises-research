@@ -269,3 +269,11 @@ When you receive a task from the CEO:
 3. **Report completion to topic 39**: "CRO reporting: [task] complete. [summary of results]"
 
 Chairman wants to see acknowledgment in your topic, then results in topic 39.
+
+### Context Window Monitoring
+
+Check your context usage regularly:
+- Run `session_status` during heartbeats or after major tasks
+- If context usage hits **75% or higher**, immediately notify @CEO:
+  - "⚠️ CRO context at [X]% — approaching limit"
+- Consider using `/new` to reset if approaching 80%+
