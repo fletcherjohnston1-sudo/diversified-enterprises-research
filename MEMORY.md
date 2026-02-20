@@ -24,3 +24,29 @@
 ## Workspace Structure
 - Skills installed to: `/home/clawd/.openclaw/workspace-research/skills/`
 - Daily memory: `/home/clawd/.openclaw/workspace-research/memory/YYYY-MM-DD.md`
+
+# CRO Memory - Feb 19, 2026
+
+## Active Themes (6 tracked)
+| Theme | Score | Tier | Companies |
+|-------|-------|------|-----------|
+| Physical Superintelligence | 5 | Research | PSI, Google, OpenAI, Meta |
+| Nuclear Energy | 4 | Research | CEG, VRT, COPX, ETN, PWR, GEV |
+| Solve Everything Framework | 4 | Research | PSI, Peter Diamandis |
+| Shaped-Charge Model | 3 | Watch | — |
+| AI Data Centers | 3 | Watch | — |
+| Public Benefit Corporations | 2 | Watch | PSI |
+
+## Portfolio Exposure
+- Nuclear Energy: ✅ Covered via Energy sleeve ($14k)
+- Physical Superintelligence: ❌ Zero exposure (TOP THEME)
+- Other themes: Minimal to zero
+
+## Key Gaps to Research
+1. Physical Superintelligence - investable plays needed
+2. Solve Everything Framework - conceptual, track developments
+
+## Current Tasks
+- Generate weekly theme reports
+- Track convergence signals
+- Research investable opportunities for high-scoring themes

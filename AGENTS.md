@@ -240,7 +240,7 @@ message tool:
 
 ### Common Patterns
 
-**Reply to CEO in topic 39:**
+**Reply to CEO in @CEO:**
 ```
 message(action="send", channel="telegram", target="-1003884162218", threadId="39", message="...")
 ```
@@ -255,7 +255,7 @@ sessions_send(sessionKey="agent:ceo:telegram:group:-1003884162218:topic:39", mes
 
 ### Response Protocol
 
-When asked to respond to another topic (e.g., topic 39):
+When asked to respond to another topic (e.g., @CEO):
 1. **First:** Acknowledge in YOUR topic (36) — brief note like "Responding to CEO request..."
 2. **Then:** Send your response to the requested topic (39)
 
@@ -266,9 +266,9 @@ This keeps your topic's chat history visible to the Chairman.
 When you receive a task from the CEO:
 1. **Immediately acknowledge in YOUR topic (36)**: "Received task from CEO: [brief task summary]. Starting now."
 2. Do the work
-3. **Report completion to topic 39**: "CRO reporting: [task] complete. [summary of results]"
+3. **Report completion to @CEO**: "CRO reporting: [task] complete. [summary of results]"
 
-Chairman wants to see acknowledgment in your topic, then results in topic 39.
+Chairman wants to see acknowledgment in your topic, then results in @CEO.
 
 ### Context Window Monitoring
 
